@@ -1,0 +1,22 @@
+"""
+LeetCode ${NUMBER} – ${TITLE_CAMEL}
+
+URL: https://leetcode.com/problems/${TITLE}/
+"""
+import pytest
+
+class Solution:
+    def ${TITLE_SNAKE}(self, s: str) -> str:
+        """
+        T:  O(?)
+        S:  O(?)
+        """
+        pass
+
+
+@pytest.mark.parametrize("x, y, expected", [
+    (5, 3, 8),
+])
+def test_solutions(x, y, expected):
+    sol = Solution()
+    assert sol.${TITLE_SNAKE}(x, y) == expected
